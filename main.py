@@ -1,3 +1,10 @@
+
+class User:
+    inventory = {}
+    money = 0
+    name = "Player Name Here"
+
+
 def prompt(options:list, topDialog:str, bottomPrompt:str, functionsList:list, arguements:int):
     print(topDialog)
     print("\n")
@@ -10,4 +17,13 @@ def prompt(options:list, topDialog:str, bottomPrompt:str, functionsList:list, ar
     for x in range(len(optionsDict)):
         if output == optionsDict[x+1]:
             return functionsList[x](round=arguements)
-    
+
+def userModify(usrclass, changeDataName, changeData, changeDataNameINV):
+    if changeDataName == "name":
+        usrclass.name = changeData
+    elif changeDataName == "money":
+        usrclass.money = changeData
+    elif changeDataName == "Inventory":
+        usrclass.inventory[changeDataNameINV] = changeData
+    else:
+        print("Sorry! Custom User Data is currently a WIP!")
