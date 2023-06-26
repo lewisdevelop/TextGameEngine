@@ -5,7 +5,7 @@ I saw somebody making a text game and thought to myself "There must be an easier
 
 ## Functions
 
-`prompt(options, topDialog, bottomPrompt, functionsList, arguements)`: Currently, it outputs the number the user entered.
+`prompt(options, topDialog, bottomPrompt, functionsList, arguements)`: Currently, it outputs a function you need to predefine in your code, it must have an arguement called `round`
 
 ## TODO
 - [ ] Graphics Intergration
