@@ -5,7 +5,7 @@ I saw somebody making a text game and thought to myself "There must be an easier
 
 ## Functions
 
-`prompt(options, topDialog, bottomPrompt)`: Currently, it outputs what the user replied.
+`prompt(options, topDialog, bottomPrompt)`: Currently, it outputs the number the user entered.
 
 ## TODO
 - [ ] Graphics Intergration
