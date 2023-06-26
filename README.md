@@ -16,7 +16,7 @@ I saw somebody making a text game and thought to myself "There must be an easier
 
 ## Backstory
 
-I was on a discord server just looking around when I saw somebody using [Replit](replit.com) to make a text game with tk to display images. (Does the whole Graphics Intergration make more sense now?) I thought to myself, "Is there an easier way to make a Text Game?". I never researched it but I wanted to try my hand at a new project and hopefully level up my skills in using library's for python. I want to make 3 versions. one for replit (a template that opens the GUI after done.), one for GUI users, and one for CLI users.
+I was on a [Discord](https://discord.com) server just looking around when I saw somebody using [Replit](replit.com) to make a text game with tk to display images. (Does the whole Graphics Intergration make more sense now?) I thought to myself, "Is there an easier way to make a Text Game?". I never researched it but I wanted to try my hand at a new project and hopefully level up my skills and make more impressive projects in the future. I want to make 3 versions. one for replit (a template that opens the GUI after done.), one for GUI users, and one for CLI users.
 
 ### Explaination for people who don't understand the words im using
 
