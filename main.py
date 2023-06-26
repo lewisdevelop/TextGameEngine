@@ -1,4 +1,4 @@
-def prompt(options:list, topDialog:str, bottomPrompt:str):
+def prompt(options:list, topDialog:str, bottomPrompt:str, functionsList:list, arguements:int):
     print(topDialog)
     print("\n")
     optionsDict = {}
@@ -9,5 +9,5 @@ def prompt(options:list, topDialog:str, bottomPrompt:str):
     output = int(input(bottomPrompt))
     for x in range(len(optionsDict)):
         if output == optionsDict[x+1]:
-            return x+1
+            return functionsList[x](round=arguements)
     
