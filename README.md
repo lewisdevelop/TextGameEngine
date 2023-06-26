@@ -8,11 +8,11 @@ I saw somebody making a text game and thought to myself "There must be an easier
 `prompt(options, topDialog, bottomPrompt)`: Currently, it outputs what the user replied.
 
 ## TODO
-[ ] Graphics Intergration
+- [ ] Graphics Intergration
 
-[ ] Add a GUI to make it easier.
+- [ ] Add a GUI to make it easier.
 
-[ ] Extend Functionality by adding Lua Support
+- [ ] Extend Functionality by adding Lua Support
 
 ## Backstory
 
