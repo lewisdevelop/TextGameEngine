@@ -1,5 +1,6 @@
 
 class User:
+    health = 100
     inventory = {}
     money = 0
     name = "Player Name Here"
@@ -27,3 +28,8 @@ def userModify(usrclass, changeDataName, changeData, changeDataNameINV):
         usrclass.inventory[changeDataNameINV] = changeData
     else:
         print("Sorry! Custom User Data is currently a WIP!")
+
+def manageArguements(listofArgs:list, need:int):
+    for i in range(len(listofArgs)):
+        if i == need:
+            return listofArgs[i]
