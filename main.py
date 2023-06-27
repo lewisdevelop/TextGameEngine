@@ -5,7 +5,7 @@ class User:
     name = "Player Name Here"
 
 
-def prompt(options:list, topDialog:str, bottomPrompt:str, functionsList:list, arguements:int):
+def prompt(options:list, topDialog:str, bottomPrompt:str, functionsList:list, arguements:list):
     print(topDialog)
     print("\n")
     optionsDict = {}
@@ -16,7 +16,7 @@ def prompt(options:list, topDialog:str, bottomPrompt:str, functionsList:list, ar
     output = int(input(bottomPrompt))
     for x in range(len(optionsDict)):
         if output == optionsDict[x+1]:
-            return functionsList[x](round=arguements)
+            return functionsList[x](arguements=arguements)
 
 def userModify(usrclass, changeDataName, changeData, changeDataNameINV):
     if changeDataName == "name":

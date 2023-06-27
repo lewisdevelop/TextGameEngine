@@ -5,7 +5,9 @@ I saw somebody making a text game and thought to myself "There must be an easier
 
 ## Functions
 
-`prompt(options, topDialog, bottomPrompt, functionsList, arguements)`: Currently, it outputs a function you need to predefine in your code, it must have an arguement called `round`
+`prompt(options, topDialog, bottomPrompt, functionsList, arguements)`: Currently, it outputs a function you need to predefine in your code, your arguements must be in a list. all list start at [0] not [1]
+
+`userModify(usrclass, changeDataName, changeData, changeDataNameINV)` changes assigned variables in the user class. note, if using something else say `None` in `changeDataNameINV`
 
 ## TODO
 - [ ] Graphics Intergration
